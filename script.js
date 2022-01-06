@@ -25,36 +25,11 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-let myName = "Thomas";
+let myName = "Thomas"
 let firstlink = document
 .getElementsByTagName("a")[0];
 firstlink.innerHTML = myName;
 
 let title = document
 .getElementsByTagName("title")[0];
-title.innerHTML = myName + "s logbog";
-
-<html>
-<body>
-
-<h2>JavaScript Confirm Box</h2>
-
-
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  var txt;
-  if (confirm("Press a button!")) {
-    txt = "You pressed OK!";
-  } else {
-    txt = "You pressed Cancel!";
-  }
-  document.getElementById("demo").innerHTML = txt;
-}
-</script>
-
-</body>
-</html>
+title.innerHTML = myName + "' Logbog";
