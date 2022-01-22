@@ -72,7 +72,7 @@
     margin-top: 2%;
     padding: 2%;
     text-align: center;
-    background-image: url('images/Banner.jpg');
+    background-image: url('images/Banner.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -86,27 +86,27 @@
   }
 
   #informatik {
-    background-image:  url('images/Banner.jpg');
+    background-image:  url('images/Banner.png');
   }
 
   #matematik {
-    background-image:  url('images/Banner.jpg');
+    background-image:  url('images/Banner.png');
   }
 
   #engelsk {
-    background-image:  url('images/Banner.jpg');
+    background-image:  url('images/Banner.png');
   }
 
   #so {
-    background-image:  url('images/Banner.jpg');
+    background-image:  url('images/Banner.png');
   }
 
   #dotdotdot {
-    background-image:  url('images/Banner.jpg');
+    background-image:  url('images/Banner.png');
   }
 
   #dansk {
-    background-image:  url('images/Banner.jpg');
+    background-image:  url('images/Banner.png');
   }
 
   .content .element {
