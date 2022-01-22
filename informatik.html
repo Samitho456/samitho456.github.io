@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thomas Logbog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <!-- Navigation bar HTML -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Thomas </a>
+            <a href="informatik.html" class="active">INF</a>
+            <a href="matematik.html">MAT</a>
+            <a href="dansk.html">DAN</a>
+            <a href="engelsk.html">ENG</a>
+           <!--<a href="dotdotdot.html">...</a> -->
+            <a href="so.html">SO</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- Accordion HTML -->
+        <div class="content" id="informatik">
+            <div class="element left">
+                <h2>Informatik Noter</h2>
+                <button class="accordion">Console.log</button>
+                <div class="panel">
+                <p>Vi har lært omkring console.log. Console.log er en logbog for for console fx. kordinatoerne at et objekt.</p>
+                </div>
+
+                <button class="accordion">Variale og datatyper</button>
+                <div class="panel">
+                <p>Vi har lært om variabler og  datatyper. et variable et noget der bruges til at gemme data. der er tre typer varabler vi bruger kun to af dem.den første er "let" det er et variable vi bruger der kan ændre sin værdi. den anden vi bruger er "const" den har en fast værdi. Datatype er det der bliver gemt inde i vores variabler.</p>
+                </div>
+
+                <button class="accordion">Operatorer</button>
+                <div class="panel">
+                <p>Vi har lært om  operatorer. der er forskellige typer operatorer. operatorens opgave er at give en værdi til at variable. den første operator hedder assignent og det den gør er at den giver en værdi fx. x=y eller bare et regnestykke som x+=y eller x*=y.
+                    Den anden hedder arithmetic og det er en måde man kan bruge til både normale tal og variabler fx. x=100+50 eller x=a+b.
+                    den sidste hedder comparisoon operators og det er en der tjekker og noget et true eller false der bruger man == for at tjekke om noget har samme værdi og !== for at tjekke det ikke har den samme værdi 
+
+                </p>
+                </div>
+
+                <button class="accordion">if-statements</button>
+                <div class="panel">
+                <p>Et if-statement er en måde at sige hvis noget er true så skal den gøre den nedrestående kode eller hvis noget er falsk kan man insdsætte et else så hvis koden er flase så skal den execute en anden kode.</p>
+                </div>
+
+                <button class="accordion">Funktioner</button>
+                <div class="panel">
+                <p>En funktion er en række kode der skal executes hvis den bliver tilkaldt </p>
+                </div>
+            </div>
+
+            <div class="element left">
+                <h2>Informatik Projekter</h2>
+                <button class="accordion">Logbog</button>
+                <div class="panel">
+                <p>vis skal lave et portofolie over hvad vi gennemgår gennem tiden</p>
+                </div>
+
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
